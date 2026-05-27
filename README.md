@@ -151,10 +151,20 @@ The following analyses were conducted during the project:
 ![Correlation Analysis](correlation_heatmap.png)
 ---
 
-### 9. Operational Observation
-- The cancellation distribution across products and payment methods appeared highly uniform throughout the dataset.
+### 9. Order Status Performance
 
-- **Observation:** The consistency of these patterns suggests that the dataset may represent a structured or simulated transactional environment rather than entirely organic customer behavior.
+- **Order Distribution:** Cancelled orders recorded the highest transaction count (250 orders), followed closely by returned (247), pending (237), shipped (235), and delivered orders (231).
+
+- **Revenue Contribution by Status:**
+  - Cancelled — `$276,396.21`
+  - Pending — `$256,328.15`
+  - Delivered — `$242,600.32`
+
+- **Key Insight:** Cancelled orders generated the highest revenue contribution within the dataset, while delivered orders recorded the lowest revenue values. This unusual distribution suggests that high-value transactions are disproportionately cancelled.
+
+- **Operational Observation:** The cancellation distribution across products and payment methods appeared highly uniform throughout the dataset, suggesting that the dataset may represent a structured or simulated transactional environment rather than entirely organic customer behavior.
+
+![Order Status Breakdown by Revenue](Order_status_breakdown_by_revenue.png)
 
 ![Order Status Distribution Per Product](Order_status_distribution_per_product.png)
 
@@ -189,9 +199,9 @@ This project demonstrates practical skills in:
 
 | File | Description |
 |---|---|
-| `cleaned_dataset for Data Analytics.xlsx` | Cleaned dataset used for analysis |
-| `project2_eda.ipynb` | Jupyter Notebook containing the EDA workflow |
-| `project2_eda.html` | HTML export of the notebook |
+| `Cleaned_dataset for Data Analytics.xlsx` | Cleaned dataset used for analysis |
+| `Project2_Exploratory_data_analysis.ipynb` | Jupyter Notebook containing the EDA workflow |
+| `Project2_Exploratory_data_analysis.html` | HTML export of the notebook |
 | `README.md` | Project documentation |
 
 ## Conclusion
