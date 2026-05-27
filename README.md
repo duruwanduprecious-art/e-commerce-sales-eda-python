@@ -61,19 +61,78 @@ The following analyses were conducted during the project:
 11. Customer Behavior Analysis
 12. Correlation Analysis
 
-## Key Insights
+## 📊 Key Findings & Business Insights
 
-- Printers recorded the highest number of sales transactions.
-- Chairs generated the highest total revenue.
-- June recorded the highest sales and revenue activity.
-- Most customer purchases were concentrated within lower revenue ranges.
-- Online payments were the most preferred payment method.
-- Instagram generated the highest customer traffic and revenue contribution.
-- Approximately 74% of customers used coupon codes.
-- FREESHIP was the most frequently used coupon.
-- Customers acquired through Instagram showed the highest coupon engagement.
-- A small group of customers contributed significantly higher revenue than the majority of customers.
-- Unit Price showed a stronger relationship with Total Revenue than Quantity.
+### 1. Revenue Performance & Product Contribution
+- **Total Revenue Generated:** `$1,264,761.96`
+- **Average Order Value:** `$1,053.97`
+
+- **Key Insight:** High transaction volume did not necessarily translate into the highest revenue generation. While **Printers** recorded the highest number of sales transactions (181 sales), **Chairs** generated the highest total revenue (`$195,620.11`) due to their higher unit price contribution.
+
+### Product Distribution by Transaction_count & Revenue
+
+![Product Distribution](Product Distribution.png)
+
+![Product Distribution by Revenue](Product_distribution_by_Revenue.png)
+---
+
+### 2. Coupon Usage & Promotional Effectiveness
+- **Coupon Adoption Rate:** Approximately **74.25%** of all transactions involved the use of a coupon code, indicating strong customer responsiveness to promotional incentives.
+
+- **Most Frequently Used Coupons:**
+  - `FREESHIP` — 313 uses
+  - `WINTER15` — 292 uses
+  - `SAVE10` — 286 uses
+
+- **Key Insight:** Free shipping promotions emerged as the most effective discount strategy, suggesting that customers were highly motivated by reduced delivery costs.
+
+---
+
+### 3. Referral Source & Coupon Engagement
+- **Top Referral Source:** **Instagram** generated the highest customer traffic and coupon engagement activity.
+
+- **Behavioral Insight:** Customers acquired through Instagram demonstrated the strongest response to promotional campaigns, particularly free shipping offers. In contrast, customers arriving through Google showed stronger engagement with direct price-reduction coupons such as `SAVE10`.
+
+---
+
+### 4. Revenue Distribution & Purchase Behavior
+- **Distribution Pattern:** Revenue distribution followed a right-skewed pattern, where the majority of transactions were concentrated within lower purchase ranges.
+
+- **Breakdown:**
+  - Nearly 400 transactions fell within the `$0–$500` range
+  - Approximately 300 transactions fell within the `$500–$1,000` range
+  - High-value purchases above `$3,000` were relatively rare
+
+- **Key Insight:** The business generated most of its transaction volume from lower-value purchases, while high-ticket orders contributed a smaller but significant portion of overall revenue.
+
+---
+
+### 5. Payment Preference Analysis
+- **Most Preferred Payment Method:** Online payment methods recorded the highest transaction frequency across the dataset.
+
+- **Key Insight:** Customers demonstrated a strong preference for digital payment channels, highlighting the importance of maintaining seamless online payment experiences.
+
+---
+
+### 6. Customer Value & Outlier Detection
+- **Top Customer:** Customer `C38840`
+- **Total Customer Revenue Contribution:** `$5,723.23`
+
+- **Key Insight:** Customer spending behavior revealed the presence of high-value customer outliers who contributed disproportionately higher revenue compared to the average customer spend.
+
+---
+
+### 7. Correlation Analysis
+- **Strongest Correlation Identified:** `UnitPrice` and `TotalRevenue` (`0.72` correlation coefficient)
+
+- **Key Insight:** Revenue growth was influenced more strongly by product pricing than by purchase quantity, suggesting that higher-priced products contributed significantly to total sales performance.
+
+---
+
+### 8. Operational Observation
+- The cancellation distribution across products and payment methods appeared highly uniform throughout the dataset.
+
+- **Observation:** The consistency of these patterns suggests that the dataset may represent a structured or simulated transactional environment rather than entirely organic customer behavior.
 
 ## Recommendations
 
