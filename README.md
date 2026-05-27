@@ -72,6 +72,7 @@ The following analyses were conducted during the project:
 ![Product Distribution](Product_distribution.png)
 
 ![Product Distribution by Revenue](Product_distribution_by_Revenue.png)
+
 ---
 
 ### 2. Coupon Usage & Promotional Effectiveness
@@ -141,17 +142,7 @@ The following analyses were conducted during the project:
 
 ---
 
-### ### 8. Correlation Analysis
-- **Strongest Correlation Identified:** `UnitPrice` and `TotalRevenue` (`0.72` correlation coefficient)
-
-- **Additional Relationship:** `Quantity` also showed a moderately strong positive relationship with `TotalRevenue` (`0.62` correlation coefficient).
-
-- **Key Insight:** The analysis indicates that both product pricing and purchase quantity contributed significantly to revenue generation. However, product pricing demonstrated a slightly stronger influence on total revenue compared to purchase volume.
-
-![Correlation Analysis](correlation_heatmap.png)
----
-
-### 9. Order Status Performance
+### 8. Order Status Performance
 
 - **Order Distribution:** Cancelled orders recorded the highest transaction count (250 orders), followed closely by returned (247), pending (237), shipped (235), and delivered orders (231).
 
@@ -162,13 +153,26 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** Cancelled orders generated the highest revenue contribution within the dataset, while delivered orders recorded the lowest revenue values. This unusual distribution suggests that high-value transactions are disproportionately cancelled.
 
-- **Operational Observation:** The cancellation distribution across products and payment methods appeared highly uniform throughout the dataset, suggesting that the dataset may represent a structured or simulated transactional environment rather than entirely organic customer behavior.
+- **Operational Observation:** Additionally the cancellation distribution across products and payment methods appeared highly uniform throughout the dataset, suggesting that the dataset may represent a structured or simulated transactional environment rather than entirely organic customer behavior.
 
 ![Order Status Breakdown by Revenue](Order_status_breakdown_by_revenue.png)
 
-![Order Status Distribution Per Product](Order_status_distribution_per_product.png)
-
 ![Order Status Distribution Across Payment Method](Order_status_distribution_by_paymentmethod.png)
+
+![Order Status Distribution Per Product](Order_status_distribution_per_product..png)
+
+---
+
+### 9. Correlation Analysis
+- **Strongest Correlation Identified:** `UnitPrice` and `TotalRevenue` (`0.72` correlation coefficient)
+
+- **Additional Relationship:** `Quantity` also showed a moderately strong positive relationship with `TotalRevenue` (`0.62` correlation coefficient).
+
+- **Key Insight:** The analysis indicates that both product pricing and purchase quantity contributed significantly to revenue generation. However, product pricing demonstrated a slightly stronger influence on total revenue compared to purchase volume.
+
+![Correlation Analysis](correlation_heatmap.png)
+
+---
 
 ## Recommendations
 
@@ -179,6 +183,8 @@ Based on the analysis, the following recommendations were identified:
 - Focus inventory and marketing strategies on high-performing products.
 - Investigate the high cancellation and return rates to reduce revenue loss.
 - Develop customer retention strategies for high-value customers.
+
+---
 
 ## Skills Demonstrated
 
@@ -195,14 +201,18 @@ This project demonstrates practical skills in:
 - pandas Data Manipulation
 - Data Storytelling
 
+---
+
 ## Files Included
 
 | File | Description |
 |---|---|
 | `Cleaned_dataset for Data Analytics.xlsx` | Cleaned dataset used for analysis |
-| `Project2_Exploratory_data_analysis.ipynb` | Jupyter Notebook containing the EDA workflow |
-| `Project2_Exploratory_data_analysis.html` | HTML export of the notebook |
+| `Project 2_Exploratory_data_analysis.ipynb` | Jupyter Notebook containing the EDA workflow |
+| `Project 2_Exploratory_data_analysis.html` | HTML export of the notebook |
 | `README.md` | Project documentation |
+
+---
 
 ## Conclusion
 
