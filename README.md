@@ -94,9 +94,20 @@ The following analyses were conducted during the project:
 - **Behavioral Insight:** Customers acquired through Instagram demonstrated the strongest response to promotional campaigns, particularly free shipping offers. In contrast, customers arriving through Google showed stronger engagement with direct price-reduction coupons such as `SAVE10`.
 
 ![Coupon Code Distribution Across Referral Source](CouponCode_distribution_across_referral_source.png)
+
 ---
 
-### 4. Revenue Distribution & Purchase Behavior
+### 4. Monthly Sales & Revenue Trends
+- **Peak Performance Month:** June recorded the highest sales and revenue activity across the dataset.
+
+- **Trend Insight:** Sales and revenue patterns fluctuated throughout the year, with noticeable peaks during mid-year periods. This suggests possible seasonal purchasing behavior or increased customer activity during certain months.
+
+![Monthly Sales Trend](Monthly_sales_trend.png)
+![Revenue Trend Overtime](Revenue_trend_overtime.png)
+
+---
+
+### 5. Revenue Distribution & Purchase Behavior
 - **Distribution Pattern:** Revenue distribution followed a right-skewed pattern, where the majority of transactions were concentrated within lower purchase ranges.
 
 - **Breakdown:**
@@ -110,40 +121,44 @@ The following analyses were conducted during the project:
 
 ---
 
-### 5. Payment Preference Analysis
+### 6. Payment Preference Analysis
 - **Most Preferred Payment Method:** Online payment methods recorded the highest transaction frequency across the dataset.
 
 - **Key Insight:** Customers demonstrated a strong preference for digital payment channels, highlighting the importance of maintaining seamless online payment experiences.
 
-![Customer Payment Preference](Product_distribution_by_Revenue.png)
+![Customer Payment Preference](Payment_preference_by_count.png)
 
 ---
 
-### 6. Customer Value & Outlier Detection
+### 7. Customer Value & Outlier Detection
 - **Top Customer:** Customer `C38840`
 - **Total Customer Revenue Contribution:** `$5,723.23`
 
 - **Key Insight:** Customer spending behavior revealed the presence of high-value customer outliers who contributed disproportionately higher revenue compared to the average customer spend.
 
 ### Customer Value Analysis
-![Top Customers by Revenue](Top_customers_by_Revenue.png)
+![Top Customers by Revenue](Top_customers_by_revenue.png)
 
 ---
 
-### 7. Correlation Analysis
+### ### 8. Correlation Analysis
 - **Strongest Correlation Identified:** `UnitPrice` and `TotalRevenue` (`0.72` correlation coefficient)
 
-- **Key Insight:** Revenue growth was influenced more strongly by product pricing than by purchase quantity, suggesting that higher-priced products contributed significantly to total sales performance.
+- **Additional Relationship:** `Quantity` also showed a moderately strong positive relationship with `TotalRevenue` (`0.62` correlation coefficient).
 
-![Correlation Analysis](Correlation_heatmap.png)
+- **Key Insight:** The analysis indicates that both product pricing and purchase quantity contributed significantly to revenue generation. However, product pricing demonstrated a slightly stronger influence on total revenue compared to purchase volume.
+
+![Correlation Analysis](correlation_heatmap.png)
 ---
 
-### 8. Operational Observation
+### 9. Operational Observation
 - The cancellation distribution across products and payment methods appeared highly uniform throughout the dataset.
 
 - **Observation:** The consistency of these patterns suggests that the dataset may represent a structured or simulated transactional environment rather than entirely organic customer behavior.
 
+![Order Status Distribution Per Product](Order_status_distribution_per_product.png)
 
+![Order Status Distribution Across Payment Method](Order_status_distribution_by_paymentmethod.png)
 
 ## Recommendations
 
