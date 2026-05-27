@@ -69,9 +69,7 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** High transaction volume did not necessarily translate into the highest revenue generation. While **Printers** recorded the highest number of sales transactions (181 sales), **Chairs** generated the highest total revenue (`$195,620.11`) due to their higher unit price contribution.
 
-### Product Distribution by Transaction_count & Revenue
-
-![Product Distribution](Product Distribution.png)
+![Product Distribution](Product_distribution.png)
 
 ![Product Distribution by Revenue](Product_distribution_by_Revenue.png)
 ---
@@ -86,6 +84,8 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** Free shipping promotions emerged as the most effective discount strategy, suggesting that customers were highly motivated by reduced delivery costs.
 
+![Coupon Usage & Effectiveness](Coupon_usage_and_effectiveness.png)
+
 ---
 
 ### 3. Referral Source & Coupon Engagement
@@ -93,6 +93,7 @@ The following analyses were conducted during the project:
 
 - **Behavioral Insight:** Customers acquired through Instagram demonstrated the strongest response to promotional campaigns, particularly free shipping offers. In contrast, customers arriving through Google showed stronger engagement with direct price-reduction coupons such as `SAVE10`.
 
+![Coupon Code Distribution Across Referral Source](CouponCode_distribution_across_referral_source.png)
 ---
 
 ### 4. Revenue Distribution & Purchase Behavior
@@ -105,12 +106,16 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** The business generated most of its transaction volume from lower-value purchases, while high-ticket orders contributed a smaller but significant portion of overall revenue.
 
+![Revenue Distribution Across Orders](Revenue_distribution_across_orders.png)
+
 ---
 
 ### 5. Payment Preference Analysis
 - **Most Preferred Payment Method:** Online payment methods recorded the highest transaction frequency across the dataset.
 
 - **Key Insight:** Customers demonstrated a strong preference for digital payment channels, highlighting the importance of maintaining seamless online payment experiences.
+
+![Customer Payment Preference](Product_distribution_by_Revenue.png)
 
 ---
 
@@ -120,6 +125,9 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** Customer spending behavior revealed the presence of high-value customer outliers who contributed disproportionately higher revenue compared to the average customer spend.
 
+### Customer Value Analysis
+![Top Customers by Revenue](Top_customers_by_Revenue.png)
+
 ---
 
 ### 7. Correlation Analysis
@@ -127,12 +135,15 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** Revenue growth was influenced more strongly by product pricing than by purchase quantity, suggesting that higher-priced products contributed significantly to total sales performance.
 
+![Correlation Analysis](Correlation_heatmap.png)
 ---
 
 ### 8. Operational Observation
 - The cancellation distribution across products and payment methods appeared highly uniform throughout the dataset.
 
 - **Observation:** The consistency of these patterns suggests that the dataset may represent a structured or simulated transactional environment rather than entirely organic customer behavior.
+
+
 
 ## Recommendations
 
