@@ -69,9 +69,9 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** High transaction volume did not necessarily translate into the highest revenue generation. While **Printers** recorded the highest number of sales transactions (181 sales), **Chairs** generated the highest total revenue (`$195,620.11`) due to their higher unit price contribution.
 
-![Product Distribution](Product_distribution.png)
+![Product Distribution](Images/Product_distribution.png)
 
-![Product Distribution by Revenue](Product_distribution_by_Revenue.png)
+![Product Distribution by Revenue](Images/Product_distribution_by_Revenue.png)
 
 ---
 
@@ -85,7 +85,7 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** Free shipping promotions emerged as the most effective discount strategy, suggesting that customers were highly motivated by reduced delivery costs.
 
-![Coupon Usage & Effectiveness](Coupon_usage_and_effectiveness.png)
+![Coupon Usage & Effectiveness](Images/Coupon_usage_and_effectiveness.png)
 
 ---
 
@@ -94,7 +94,7 @@ The following analyses were conducted during the project:
 
 - **Behavioral Insight:** Customers acquired through Instagram demonstrated the strongest response to promotional campaigns, particularly free shipping offers. In contrast, customers arriving through Google showed stronger engagement with direct price-reduction coupons such as `SAVE10`.
 
-![Coupon Code Distribution Across Referral Source](CouponCode_distribution_across_referral_source.png)
+![Coupon Code Distribution Across Referral Source](Images/CouponCode_distribution_across_referral_source.png)
 
 ---
 
@@ -103,8 +103,8 @@ The following analyses were conducted during the project:
 
 - **Trend Insight:** Sales and revenue patterns fluctuated throughout the year, with noticeable peaks during mid-year periods. This suggests possible seasonal purchasing behavior or increased customer activity during certain months.
 
-![Monthly Sales Trend](Monthly_sales_trend.png)
-![Revenue Trend Overtime](Revenue_trend_overtime.png)
+![Monthly Sales Trend](Images/Monthly_sales_trend.png)
+![Revenue Trend Overtime](Images/Revenue_trend_overtime.png)
 
 ---
 
@@ -118,7 +118,7 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** The business generated most of its transaction volume from lower-value purchases, while high-ticket orders contributed a smaller but significant portion of overall revenue.
 
-![Revenue Distribution Across Orders](Revenue_distribution_across_orders.png)
+![Revenue Distribution Across Orders](Images/Revenue_distribution_across_orders.png)
 
 ---
 
@@ -127,7 +127,7 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** Customers demonstrated a strong preference for digital payment channels, highlighting the importance of maintaining seamless online payment experiences.
 
-![Customer Payment Preference](Payment_preference_by_count.png)
+![Customer Payment Preference](Images/Payment_preference_by_count.png)
 
 ---
 
@@ -138,7 +138,7 @@ The following analyses were conducted during the project:
 - **Key Insight:** Customer spending behavior revealed the presence of high-value customer outliers who contributed disproportionately higher revenue compared to the average customer spend.
 
 ### Customer Value Analysis
-![Top Customers by Revenue](Top_customers_by_revenue.png)
+![Top Customers by Revenue](Images/Top_customers_by_revenue.png)
 
 ---
 
@@ -155,11 +155,11 @@ The following analyses were conducted during the project:
 
 - **Operational Observation:** Additionally the cancellation distribution across products and payment methods appeared highly uniform throughout the dataset, suggesting that the dataset may represent a structured or simulated transactional environment rather than entirely organic customer behavior.
 
-![Order Status Breakdown by Revenue](Order_status_breakdown_by_revenue.png)
+![Order Status Breakdown by Revenue](Images/Order_status_breakdown_by_revenue.png)
 
-![Order Status Distribution Across Payment Method](Order_status_distribution_by_paymentmethod.png)
+![Order Status Distribution Across Payment Method](Images/Order_status_distribution_by_paymentmethod.png)
 
-![Order Status Distribution Per Product](Order_status_distribution_per_product..png)
+![Order Status Distribution Per Product](Images/Order_status_distribution_per_product..png)
 
 ---
 
@@ -170,7 +170,7 @@ The following analyses were conducted during the project:
 
 - **Key Insight:** The analysis indicates that both product pricing and purchase quantity contributed significantly to revenue generation. However, product pricing demonstrated a slightly stronger influence on total revenue compared to purchase volume.
 
-![Correlation Analysis](correlation_heatmap.png)
+![Correlation Analysis](Images/correlation_heatmap.png)
 
 ---
 
